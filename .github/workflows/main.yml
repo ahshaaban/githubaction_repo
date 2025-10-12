@@ -11,5 +11,11 @@ jobs:
     steps:
       - name: echo first job
         run: echo "This is the first job in the first githubaction workflow"
+
+      - name: checkout this repo on runner
+        uses: actions/checkout@v5.0.0
+
+      - name: list repo files
+        run: ls -lrta
     
     
