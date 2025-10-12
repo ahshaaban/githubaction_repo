@@ -1,0 +1,15 @@
+name: first workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: echo first job
+        run: echo "This is the first job in the first githubaction workflow"
+    
+    
