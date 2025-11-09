@@ -1,0 +1,22 @@
+{
+    "name": "githubaction-demo",
+    "version": "1.0.0",
+    "description": "A GitHub Actions demo project",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "sh test.sh"
+    },
+    "keywords": [
+        "github-actions",
+        "demo"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
